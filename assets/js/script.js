@@ -48,9 +48,14 @@ let TablaFactorial = (para1) => {
 let programa = () => {
     saludo_inicial()
     let x = get_and_validate()
+    console.log(`El número seleccionado fue: ${x}.`)
+    console.log(" ")
+    console.log("TABLA DE MULTIPLICAR :")
     multiplix(x)
+    console.log(" ")
+    console.log("TABLA DE FACTORIAL :")
     TablaFactorial(x)
-    console.log("jemm2008")
+    console.log(`                               ...by jemm2008`)
     alert(`Multiplicación versión 0.1 alfa
     actualmente los resultados se muestran por la consola,
     cumpliendo lo requerido por el ejercicio.
