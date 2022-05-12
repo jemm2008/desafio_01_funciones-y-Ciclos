@@ -1,3 +1,6 @@
+alert(`Bienvenidos_!!,
+actualmente los resultados se ven en la consola,
+después de abrirla presionar el botón  RUN...`)
 // Función Saludo Inicial
 let saludo_inicial = () => alert("Hola!! Inicio programa MULTIPLICACION_! ...")
 
